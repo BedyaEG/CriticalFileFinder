@@ -20,6 +20,7 @@ def dirb():
         else:
             print("File Has Been Found Successfully >> "+fu)
             fo = open('Critical_File_Found.txt','a')
+            fo.write('\n')
             fo.write(url)
             fo.close()
 dirb()
