@@ -20,7 +20,7 @@ def dirb():
         else:
             print("[+] File Has Been Found Successfully >> "+fu)
 
-            fo = open('/home/hawkeye/Critical File Finder/Critical_File_Found.txt','a')
+            fo = open('Critical_File_Found.txt','a')
             fo.write(url)
             fo.close()
 dirb()
